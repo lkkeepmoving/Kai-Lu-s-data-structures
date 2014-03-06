@@ -1,5 +1,5 @@
 class InorderMorrisTraversal {
-	// Function to traverse binary tree without recursion and without stack
+	// Function to in-order traverse binary tree without recursion and without stack
 	// Morris Traversal works only when we have write permission
 	public void inorderMorrisTraversal(TreeNode root) {
 		if (root == null) {
