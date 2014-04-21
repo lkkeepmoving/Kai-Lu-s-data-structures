@@ -152,6 +152,7 @@ public class KLHashtable<K, V> {
      * @param size new hashtable size
      */
     public void resize(int size) {
+    	/* My implementation supposes new size is larger than old size */
         KLHashtable<K, V> newHashtable = new KLHashtable<K, V>(size);
         for (HashEntry<K, V> entry : entries) {
             for (; entry != null; entry = entry.next) {
